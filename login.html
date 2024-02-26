@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/media-query.css">
+    <link rel="stylesheet" href="estilos/style.css">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>To Do List | GN</title>
+</head>
+<body>
+    <main>
+        <section id="login">
+            <div id="imagen">
+
+            </div>
+            <div id="formulario">
+                <h1>login</h1>
+                <p>Seja benvido(a) novamente. faça login para acessar sua lista e tarefas.</p>
+                <form action="cadastro.html" method="post" autocomplete="on">
+                    <div class="campo">
+                        <span class="material-icons md-18">person</span>
+
+                        <input name="email" id="iemail" placeholder="Usuário">
+
+                        <label for="iemail">Login:</label>
+                    </div>
+                    <div class="campo">
+                        <span class="material-icons md-18">vpn_key</span>
+
+                        <input type="password" name="senha" id="isenha"   autocomplete="current-password" required maxlength="8" maxlength="15" placeholder="Senha">
+
+                        <label for="isenha">Senha:</label>
+                    </div>
+                    <input type="button" value="Entrar" onclick="login()">
+                    <a href="login.html">Esqueci a senha <span class="material-icons md-18">mail</span></a> 
+                    <a href="cadastro.html">Cadastrar <span class="material-icons md-18">person_add</span></a>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
